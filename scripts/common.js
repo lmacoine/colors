@@ -6,6 +6,7 @@
 
 	var valeur,
 		rainbow,
+		button,
 		colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'purple'];
 
 	function colorStart () {
@@ -38,7 +39,7 @@
 		}
 
 	function rainbowStart(){
-		$('.rainbow').click(function(){
+		$('.button').click(function(){
 			// colorStart()
 			// console.log("clique !");
 			colorStart();
@@ -47,6 +48,7 @@
 
 	function initVarJquery(){
 		rainbow = $('.rainbow');
+		button = $('.button');
 	}
 
 	$(document).ready(function () {
