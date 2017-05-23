@@ -5,24 +5,45 @@
 	"use strict";
 
 	var rainbow,
-		col = 'rgb(' + (Math.floor(Math.random()*256)) + 
-		',' + (Math.floor(Math.random()*256)) + 
-		',' + (Math.floor(Math.random()*256)) + ')';
+		colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'purple'];
 
-	console.log(col);
+	function colorStart () {
+		$('.rainbow').MathFloor(Math.random() * 7){
+		switch(ev.click){
+			case 1 :
+			$color = [0],
+			break;
+			case 2 :
+			$color = [1],
+			break;
+			case 3 :
+			$color = [2],
+			break;
+			case 4 :
+			$color = [3],
+			break;
+			case 5 :
+			$color = [4],
+			break;
+			case 6 :
+			$color = [5],
+			break;
+			case 7 :
+			$color = [6],
+			break;
+			default;
+			}
+		}
+	}
 
 	function rainbowStart (){
 		$('.rainbow')
 		.click(function(){
-			var col = 'rgb(' + (Math.floor(Math.random()*256)) + 
-			',' + (Math.floor(Math.random()*256)) + 
-			',' + (Math.floor(Math.random()*256)) + ')';
-			$('.rainbow').css('background-color', col)
+			colorStart()
 		})
 	}
 
 	$(document).ready(function () {
-		console.log('coucou');
 		rainbowStart();
 	});
 
