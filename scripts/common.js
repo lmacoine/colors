@@ -4,46 +4,53 @@
 (function (){
 	"use strict";
 
-	var rainbow,
-		colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'purple'];
+	var valeur,
+			rainbow,
+			colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'purple'];
 
 	function colorStart () {
-		$('.rainbow').MathFloor(Math.random() * 7){
-		switch(ev.click){
+		valeur = Math.floor(Math.random() * 6);
+		console.log(valeur);
+		switch(valeur){//valeur de 0 à 7 qui à été génére par le mathrandom juste en haut
+			case 0 ://si c'est 1 alors...
+			rainbow.css('background-color', colors[0]);//affiche la valeur du tableau index 0
+			break;
 			case 1 :
-			$color = [0],
+			rainbow.css('background-color', colors[1]);//affiche la valeur du tableau index 0
 			break;
 			case 2 :
-			$color = [1],
+			rainbow.css('background-color', colors[2]);//affiche la valeur du tableau index 0
 			break;
 			case 3 :
-			$color = [2],
+			rainbow.css('background-color', colors[3]);//affiche la valeur du tableau index 0
 			break;
 			case 4 :
-			$color = [3],
+			rainbow.css('background-color', colors[4]);//affiche la valeur du tableau index 0
 			break;
 			case 5 :
-			$color = [4],
+			rainbow.css('background-color', colors[5]);//affiche la valeur du tableau index 0
 			break;
 			case 6 :
-			$color = [5],
+			rainbow.css('background-color', colors[6]);//affiche la valeur du tableau index 0
 			break;
-			case 7 :
-			$color = [6],
-			break;
-			default;
+			default: //none
 			}
 		}
+
+	function rainbowStart(){
+		$('.rainbow').click(function(){
+			// colorStart()
+			// console.log("clique !");
+			colorStart();
+		});
 	}
 
-	function rainbowStart (){
-		$('.rainbow')
-		.click(function(){
-			colorStart()
-		})
+	function initVarJquery(){
+		rainbow = $('.rainbow');
 	}
 
 	$(document).ready(function () {
+		initVarJquery();
 		rainbowStart();
 	});
 
