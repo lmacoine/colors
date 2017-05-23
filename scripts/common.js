@@ -16,22 +16,22 @@
 			rainbow.css('background-color', colors[0]);//affiche la valeur du tableau index 0
 			break;
 			case 1 :
-			rainbow.css('background-color', colors[1]);//affiche la valeur du tableau index 0
+			rainbow.css('background-color', colors[1]);
 			break;
 			case 2 :
-			rainbow.css('background-color', colors[2]);//affiche la valeur du tableau index 0
+			rainbow.css('background-color', colors[2]);
 			break;
 			case 3 :
-			rainbow.css('background-color', colors[3]);//affiche la valeur du tableau index 0
+			rainbow.css('background-color', colors[3]);
 			break;
 			case 4 :
-			rainbow.css('background-color', colors[4]);//affiche la valeur du tableau index 0
+			rainbow.css('background-color', colors[4]);
 			break;
 			case 5 :
-			rainbow.css('background-color', colors[5]);//affiche la valeur du tableau index 0
+			rainbow.css('background-color', colors[5]);
 			break;
 			case 6 :
-			rainbow.css('background-color', colors[6]);//affiche la valeur du tableau index 0
+			rainbow.css('background-color', colors[6]);
 			break;
 			default: //none
 			}
