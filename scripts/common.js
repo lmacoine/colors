@@ -5,8 +5,8 @@
 	"use strict";
 
 	var valeur,
-			rainbow,
-			colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'purple'];
+		rainbow,
+		colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'purple'];
 
 	function colorStart () {
 		valeur = Math.floor(Math.random() * 6);
