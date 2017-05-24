@@ -29,6 +29,7 @@ body {
 	padding: 40px;
 	margin: 40px auto;
 	width: 250px;
+	outline: none;
 	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
